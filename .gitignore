@@ -1,0 +1,39 @@
+# Environment variables / secrets
+.env
+.env.*
+!.env.example
+
+# Python virtual environment
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Test/cache files
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE / OS files
+.vscode/
+.idea/
+.DS_Store
+
+# Logs
+*.log
+logs/
+
+# Runtime data / trading logs
+data/logs/
+data/raw/logs/
+
+# Generated paper trading state
+data/*_paper_*.json
+data/*_paper_*.csv
+data/paper_*.json
+data/paper_*.csv
+
+# Downloaded market data
+data/raw/*.csv
